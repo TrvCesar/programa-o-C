@@ -11,7 +11,18 @@ int ponto;
 
 printf("Escreva o Estado: \n");
 scanf(" %c,estado");
-
+printf("Escreva o Código: \n");
+scanf(" %s,codigo");
+printf("Escreva o nome da Cidade: \n");
+scanf(" %s,nome");
+printf("Digite a População: \n");
+scanf(" %d,&populacao");
+printf("Digite a Àrea: \n");
+scanf(" %f,&area");
+printf("Digite o PIB: \n");
+scanf(" %f,&pib");
+printf("Quantos pontos turisticos: \n");
+scanf(" %d,pontos");
 
 
 
