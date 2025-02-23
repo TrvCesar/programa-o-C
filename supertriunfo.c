@@ -10,9 +10,9 @@ float pib;
 int ponto;
 
 printf("Escreva o Estado: \n");
-scanf(" %s" ,&estado);
+scanf(" %c",&estado);
 printf("Escreva o Código: \n");
-scanf(" %s" ,&codigo);
+scanf(" %s",&codigo);
 printf("Escreva o nome da Cidade: \n");
 scanf(" %s",&nome);
 printf("Digite a População: \n");
@@ -24,12 +24,28 @@ scanf(" %f",&pib);
 printf("Quantos pontos turisticos: \n");
 scanf(" %d",&ponto);
 
-printf("Super Trunfo !!\n");
+printf("Estado: %c\n", estado);
+printf("Código: %s\n",codigo);
+printf("Cidade: %s\n",nome);
+printf("População: %d\n",populacao);
+printf("Area: %f\n",area);
+printf("PIB: %f\n",pib);
+printf("Pontos Turisticos: %d",ponto);
 
-printf("Estado: %s \n",estado);
+
+
+
+
+
+
+
+
+
 
 
 return 0;
+
+
 
 
 
