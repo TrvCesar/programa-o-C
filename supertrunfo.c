@@ -29,7 +29,7 @@ scanf(" %d",&ponto);
 float densidade = (float)  populacao / area;
 float percapita = (float) pib / populacao;
 
-printf("Carta 1\n")
+printf("Carta 1\n");
 printf("Estado: %c\n", estado);
 printf("Código: %s\n",codigo);
 printf("Cidade: %s\n",nome);
