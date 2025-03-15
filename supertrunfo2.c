@@ -9,7 +9,7 @@ float area1,area2;
 float pib1,pib2;
 int ponto1, ponto2;
 
-
+//Entrada dados Usuario
 printf("Carta Super Trunfo\n");
 printf("Carta 1 \n");
 printf("Escreva o Estado: \n");
@@ -27,11 +27,13 @@ scanf(" %f",&pib1);
 printf("Quantos pontos turisticos: \n");
 scanf(" %d",&ponto1);
 
+// Calculo densidade e per capita
 float densidade1 = (float)  populacao1 / area1;
 float densidade2 = (float)  populacao2 / area2;
 float percapita1 = (float) pib1 / populacao1;
 float percapita2 = (float) pib2 / populacao2;
 
+//Saída carta 1
 printf("Carta 1\n");
 printf("Estado: %c\n", estado);
 printf("Código: %s\n",codigo);
@@ -43,6 +45,7 @@ printf("Pontos Turisticos: %d\n",ponto1);
 printf("Densidade Populacional: %.2f\n",densidade1);
 printf("Pib per capita: %.2f\n",percapita1);
 
+//Entrada carta 2
 printf("Carta 2\n");
 printf("Escreva o Estado: \n");
 scanf(" %c",&estado);
@@ -59,7 +62,7 @@ scanf(" %f",&pib2);
 printf("Quantos pontos turisticos: \n");
 scanf(" %d",&ponto2);
 
-
+//Saida carta 2
 printf("Carta 2\n");
 printf("Estado: %c\n", estado);
 printf("Código: %s\n",codigo);
@@ -72,7 +75,7 @@ printf("Densidade Populacional: %.2f\n",densidade2);
 printf("Pib per capita: %.2f\n",percapita2);
 
 
-
+// comparação e definição da carta vencedora
 if(populacao1 > populacao2){
     printf("Carta 1 venceu, População : %d\n",populacao1);
 }else{
