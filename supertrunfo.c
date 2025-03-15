@@ -4,7 +4,7 @@ int main(){
 char estado;
 char codigo[20];
 char nome[20];
-long int populacao1, populacao2;
+unsigned long int populacao1, populacao2;
 float area1, area2;
 float pib1, pib2;
 int ponto1, ponto2;
@@ -18,7 +18,7 @@ scanf(" %s",&codigo);
 printf("Escreva o nome da Cidade: \n");
 scanf(" %s",&nome);
 printf("Digite a População: \n");
-scanf(" %ld",&populacao1);
+scanf(" %uld",&populacao1);
 printf("Digite a Àrea: \n");
 scanf(" %f",&area1);
 printf("Digite o PIB: \n");
@@ -46,7 +46,6 @@ printf("Densidade Populacional: %.2f\n",densidade2);
 printf("PIB per capita: %.2f\n",percapita2);
 printf("Super Poder: %.2f\n",superpoder2);
 
-long int resultadopopulacao ;
 
 printf("Cadastro Carta 2\n");
 printf("Escreva o Estado: \n");
