@@ -76,7 +76,13 @@ printf("Densidade Populacional: %.2f\n",densidade2);
 printf("Pib per capita: %.2f\n",percapita2);
 printf("Super Poder : %2f\n",SuperPoder2);
 
-
+printf("populacao(carta 1) > populacao(carta 2) : %d\n", populacao1 > populacao2 );
+printf("area(carta 1) > area(carta 2) : %f\n", area1 > area2 );
+printf("pib(carta 1) > pib(carta 2) : %f\n", pib1 > pib2 );
+printf("pontos turisticos(carta 1) > pontos turisticos(carta 2) : %d\n", ponto1 > ponto2 );
+printf("densidade populacional(carta 1) > densidade populacional(carta 2) : %f\n", densidade1 > densidade2 );
+printf("pib per capita(carta 1) > pib per capita(carta 2) : %f\n", percapita1 > percapita2 );
+printf("Super poder(carta 1) > Super Poder(carta 2) : %f", SuperPoder1 > SuperPoder2 );
 
 
 
