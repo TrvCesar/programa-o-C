@@ -80,5 +80,9 @@ printf("Pontos Turisticos: %d\n",ponto2);
 printf("Densidade Populacional: %.2f\n",densidade2);
 printf("Pib per capita: %.2f\n",percapita2);
 
-
+if(populacao1>populacao2){
+    printf("Carta 1 Venceu,População: %d\n",populacao1);
+}else{
+    printf("Carta 2 Venceu,População: %d\n",populacao2);
+}
 }
